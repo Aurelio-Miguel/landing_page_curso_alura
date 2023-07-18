@@ -1,0 +1,188 @@
+.banner {
+    background: var(--cor-banner-primaria);
+    color: var(--cor-background-secundaria);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 32px 0px 32px 0px;
+}
+
+.banner__titulo {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.banner__descricao {
+    font-size: 16px;
+    width: 316px;
+    margin-top: 8px;
+}
+
+.banner-pesquisa {
+    margin-top: 24px;
+    border-radius: 24px;
+    border: 1px solid;
+    border-color: var(--fonte-primaria);
+    color: var(--fonte-primaria);
+    width: 380px;
+    height: 44px;
+    text-align: center;
+    background: transparent;
+}
+
+.banner-pesquisa::placeholder {
+    color: var(--fonte-primaria);
+    font-size: 14px;
+    font-weight: 400;
+    background: url("../images/Pesquisa.svg") no-repeat;
+    background-position: 3em;
+}
+
+.lancamentos__titulos {
+    font-size: 18px;
+    text-transform: uppercase;
+    color: var(--cor-fonte-secundaria);
+    padding: 20px 103px 8px 103px;
+    background-color: var(--cor-background-secundaria);
+    font-weight: 700;
+}
+
+.swiper-slide img {
+    width: 100%
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    display: none;
+}
+
+.swiper-pagination {
+    position: initial;
+    margin: 1em;
+}
+
+.card-1 {
+    background-color: var(--cor-background-secundaria);
+    margin: 20px 24px 20px 24px;
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.card-1__textos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 169px;
+    height: 254px;
+}
+
+.card-1__textos__titulo {
+    color: var(--cor-fonte-secundaria);
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.card-1__textos__substitulo {
+    color: #002f52;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.card-1__textos__texto {
+    color: #000000;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.card-1__imagem {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.card-1__imagem__link {
+    background-color: var(--cor-fonte-secundaria);
+    padding: 12px 16px 12px 16px;
+    color: var(--cor-background-secundaria);
+    text-decoration: none;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.mais-vendidos__titulo {
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--cor-fonte-secundaria);
+    background-color: var(--cor-background-secundaria);
+    text-align: center;
+    padding: 24px 142px 8px 142px;
+}
+
+.card-mais-vendidos {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--cor-background-secundaria);
+    margin: 25px 23px 15px 25px;
+    padding: 16px 16px 25px 16px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.card-mais-vendidos__texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 169px;
+}
+
+.card-mais-vendidos__estrelas {
+    width: 91px;
+}
+
+.card-mais-vendidos__titulo {
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--cor-fonte-secundaria);
+}
+
+.card-mais-vendidos__autora {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--cor-fonte-secundaria-gradiente);
+}
+
+.card-mais-vendidos__descricao {
+    font-size: 14px;
+    color: #000000;
+}
+
+.card-mais-vendidos__imagem {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.card-mais-vendidos__imagem__link {
+    background-color: var(--cor-fonte-secundaria);
+    text-align: center;
+    font-size: 16px;
+    padding: 12px 16px;
+    text-decoration: none;
+    color: var(--cor-background-secundaria);
+    font-weight: 700;
+}
+
+.topicos-visitados {
+    background-color: var(--cor-background-secundaria);
+    padding-top: 16px;
+}
+
+.topicos-visitados__banner {
+    background: var(--cor-banner-primaria);
+}
