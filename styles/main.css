@@ -185,4 +185,83 @@
 
 .topicos-visitados__banner {
     background: var(--cor-banner-primaria);
+    padding: 24px 15.79px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.topicos-visitados__banner__titulo {
+    font-size: 16px;
+    color: var(--cor-background-secundaria);
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.topicos-visitados__banner__item {
+    padding: 16px 24px;
+    background-color: var(--cor-fonte-secundaria);
+
+}
+
+.topicos_visitados__banner__itens {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.topicos-visitados__banner__item__link {
+    text-decoration: none;
+    color: var(--cor-background-secundaria);
+}
+
+.newsletter {
+    background-color: var(--cor-background-secundaria);
+    padding: 24px;
+}
+
+.newsletter__titulo {
+    font-size: 18px;
+    color: var(--cor-fonte-secundaria-gradiente);
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+.newsletter__descricao {
+    font-size: 16px;
+    color: var(--cor-fonte-secundaria-gradiente);
+    font-weight: 300;
+    margin-bottom: 24px;
+}
+
+.newsletter__email {
+    width: 100%;
+    padding: 10px 24px;
+    border-radius: 24px;
+    border: 1px solid;
+    border-color: var(--cor-fonte-secundaria-gradiente);
+    text-align: center;
+}
+
+.newsletter__email::placeholder {
+    font-size: 16px;
+    color: var(--cor-fonte-secundaria-gradiente);
+    background: url("../images/Email.svg") no-repeat;
+    background-position: 3px;
+    text-align: center;
+}
+
+.rodape {
+    background-color: #F9F9F9;
+    border-top: 2px solid;
+    border-color: gray;
+    padding: 17px 24px;
+}
+
+.footer-texto {
+    font-size: 16px;
+    font-weight: 400;
 }
