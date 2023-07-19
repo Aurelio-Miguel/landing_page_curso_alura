@@ -185,4 +185,9 @@
 
 .topicos-visitados__banner {
     background: var(--cor-banner-primaria);
+    padding: 24px 15.79px;
+}
+
+.topicos-visitados__banner__titulo{
+    font-size: 16px;
 }
