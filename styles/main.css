@@ -43,7 +43,9 @@
     font-size: 18px;
     text-transform: uppercase;
     color: var(--cor-fonte-secundaria);
-    padding: 20px 103px 8px 103px;
+    padding-top: 20px;
+    padding-bottom: 8px;
+    text-align: center;
     background-color: var(--cor-background-secundaria);
     font-weight: 700;
 }
@@ -238,7 +240,7 @@
 }
 
 .newsletter__email {
-    width: 380px;
+    width: 320px;
     padding: 10px 24px;
     border-radius: 24px;
     border: 1px solid;
@@ -268,4 +270,44 @@
 
 .topicos-visitados__banner__titulo {
     font-size: 16px;
+}
+
+@media screen and (min-width: 1024px) {
+    .banner {
+        padding: 84px 232px;
+    }
+
+    .banner__titulo {
+        font-size: 36px;
+    }
+
+    .banner__descricao {
+        width: 100%;
+        font-size: 16px;
+    }
+
+    .banner-pesquisa {
+        width: 476px;
+        height: 56px;
+    }
+
+    .banner-pesquisa::placeholder {
+        font-size: 16px;
+    }
+
+    .lancamentos__titulos {
+        font-size: 26px;
+        padding-top: 51px;
+        padding-bottom: 16px;
+    }
+
+    .swiper-button-next,
+    .swiper-button-prev {
+        display: block;
+    }
+
+    .swiper {
+        width: 801px;
+    }
+
 }
