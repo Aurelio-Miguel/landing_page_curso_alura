@@ -39,9 +39,11 @@
             </div>
         </div>
         <div class="container">
-            <a href="#"><img class="cabecalho__favoritos" src="images/Favoritos.svg"></a>
-            <a href="#"><img class="cabecalho__compras" src="images/Compras.svg"></a>
-            <a href="#"><img class="cabecalho__usuario" src="images/Usuário.svg"></a>
+            <a href="#" class="cabecalho-icone"><img class="cabecalho__favoritos" src="images/Favoritos.svg"></a>
+            <a href="#" class="cabecalho-icone"><img class="cabecalho__compras" src="images/Compras.svg"><span
+                    class="cabecalho__icone__texto">Minha sacola</span></a>
+            <a href="#" class="cabecalho-icone"><img class="cabecalho__usuario" src="images/Usuário.svg"><span
+                    class="cabecalho__icone__texto">Meu perfil</span></a>
         </div>
     </header>
     <main>
@@ -52,33 +54,36 @@
         </section>
         <section class="lancamentos">
             <h2 class="lancamentos__titulos">Últimos lançamentos</h2>
-            <div class="swiper">
-                <!-- If we need pagination -->
-                <div class="swiper-pagination"></div>
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide"><img src="./images/ApacheKafka.png"></div>
-                    <div class="swiper-slide"><img src="./images/Arquitetura.png"></div>
-                    <div class="swiper-slide"><img src="./images/Tuning.png"></div>
-                    <div class="swiper-slide"><img src="./images/Portugol.png"></div>
-                    <div class="swiper-slide"><img src="./images/Liderança.png"></div>
-                </div>
-                <!-- If we need navigation buttons -->
-                <div class="swiper-button-prev"></div>
-                <div class="swiper-button-next"></div>
-            </div>
-            <div class="card-1">
-                <div class="card-1__textos">
-                    <p class="card-1__textos__titulo">Talvez você também se interesse por...</p>
-                    <p class="card-1__textos__substitulo">Angular 11 e Firebase</p>
-                    <p class="card-1__textos__texto">Construindo uma aplicação integrada com a plataforma do Google.</p>
-                    <div class="card-1__textos__icones">
-                        <img src="./images/Favoritos.svg">
-                        <img src="./images/Compras.svg">
+            <div class="lancamentos__conteudos">
+                <div class="swiper">
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src="./images/ApacheKafka.png"></div>
+                        <div class="swiper-slide"><img src="./images/Arquitetura.png"></div>
+                        <div class="swiper-slide"><img src="./images/Tuning.png"></div>
+                        <div class="swiper-slide"><img src="./images/Portugol.png"></div>
+                        <div class="swiper-slide"><img src="./images/Liderança.png"></div>
                     </div>
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
                 </div>
-                <div class="card-1__imagem">
-                    <img src="./images/Angular.png">
-                    <a class="card-1__imagem__link" href="#">Saiba Mais</a>
+                <div class="card-1">
+                    <div class="card-1__textos">
+                        <p class="card-1__textos__titulo">Talvez você também se interesse por...</p>
+                        <p class="card-1__textos__substitulo">Angular 11 e Firebase</p>
+                        <p class="card-1__textos__texto">Construindo uma aplicação integrada com a plataforma do Google.
+                        </p>
+                        <div class="card-1__textos__icones">
+                            <img src="./images/Favoritos.svg">
+                            <img src="./images/Compras.svg">
+                        </div>
+                    </div>
+                    <div class="card-1__imagem">
+                        <img src="./images/Angular.png">
+                        <a class="card-1__imagem__link" href="#">Saiba Mais</a>
+                    </div>
                 </div>
             </div>
         </section>
@@ -148,8 +153,10 @@
             </div>
         </section>
         <section class="newsletter">
-            <h2 class="newsletter__titulo">Fique por dentro das novidades!</h2>
-            <p class="newsletter__descricao">Atualizações de e-books, novos livros, promoções e outros.</p>
+            <div class="newsletter__textos">
+                <h2 class="newsletter__titulo">Fique por dentro das novidades!</h2>
+                <p class="newsletter__descricao">Atualizações de e-books, novos livros, promoções e outros.</p>
+            </div>
             <input class="newsletter__email" type="email" placeholder="Cadastre seu e-mail">
         </section>
     </main>

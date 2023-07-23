@@ -74,6 +74,7 @@
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
+
 .card-1__textos {
     display: flex;
     flex-direction: column;
@@ -272,6 +273,11 @@
     font-size: 16px;
 }
 
+.cabecalho__icone__texto {
+    display: none;
+}
+
+
 @media screen and (min-width: 1024px) {
     .banner {
         padding: 84px 232px;
@@ -309,5 +315,131 @@
     .swiper {
         width: 801px;
     }
+
+    .swiper-slide {
+        padding: 61.5px 0;
+    }
+
+    .card-1 {
+        width: 588px;
+        margin: 0 219px 48px 219px;
+        padding: 23px;
+        justify-content: space-between;
+    }
+
+    .card-1__textos {
+        width: 100%;
+        padding-top: 23px;
+        height: 0px;
+        justify-content: flex-start;
+        gap: 8px;
+    }
+
+    .card-1__textos__texto {
+        width: 318px;
+    }
+
+    .card-1__textos__icones {
+        margin-top: 41px;
+    }
+
+    .card-1__textos__texto {
+        font-size: 18px;
+    }
+
+    .mais-vendidos__titulo {
+        font-size: 26px;
+        padding-top: 57px;
+        padding-bottom: 16px;
+    }
+
+    .card-mais-vendidos {
+        width: 588px;
+        margin: 0 219px 48px 219px;
+    }
+
+    .card-mais-vendidos__texto {
+        width: 335px;
+    }
+
+    .topicos-visitados {
+        padding-top: 0;
+    }
+
+    .topicos-visitados__banner {
+        padding: 32px 140.5px;
+    }
+
+    .topicos-visitados__banner__titulo {
+        font-size: 24px;
+    }
+
+    .topicos-visitados__banner__item {
+        padding: 24px 32px;
+    }
+
+    .topicos-visitados__banner__item__link {
+        font-size: 24px;
+    }
+
+    .newsletter {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 30px 150px;
+    }
+
+    .newsletter__textos {
+        display: flex;
+        flex-direction: column;
+        gap: 19px;
+        width: 376px;
+    }
+
+    .newsletter__titulo {
+        font-size: 24px;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+
+    .cabecalho__icone__texto {
+        display: block;
+
+    }
+
+    .cabecalho-icone {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: #000000;
+        font-size: 20px;
+    }
+
+    .lancamentos__conteudos {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 114px 175px;
+    }
+
+    .swiper-wrapper {
+        width: 745px;
+        height: 253.51;
+    }
+
+    .swiper-slide {
+        padding: 0;
+        margin: 0;
+    }
+
+    .swiper-slide img {
+        width: 180px;
+    }
+
+    .card-1 {
+        margin: 0;
+    }
+
 
 }
