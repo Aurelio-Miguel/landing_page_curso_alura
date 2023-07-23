@@ -441,5 +441,36 @@
         margin: 0;
     }
 
+    .mais-vendidos__conteudo{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 114px 175px;
+    }
+
+    .card-mais-vendidos{
+        margin: 0;
+    }
+
+    .swiper-button-next,
+    .swiper-button-prev {
+        display: none;
+    }
+
+    .topicos_visitados__banner__itens{
+        width:743px;
+    }
+
+    .topicos-visitados__banner{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .newsletter{
+        align-items: center;
+        justify-content: center;
+    }
 
 }
+
+
